@@ -26,9 +26,9 @@ __Overview of DeepPathMetabol architecture__. (a) Tissue sections are subjected 
     
     SimpleITK == 2.4.1
     
-    Torch == 2.1.1+cu118
+    Torch == 2.1.1
     
-    Torchvision == 0.16.1+cu118    
+    Torchvision == 0.16.1  
 
 # Quickly start
 
