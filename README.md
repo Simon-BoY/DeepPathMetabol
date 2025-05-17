@@ -20,8 +20,6 @@ __Overview of DeepPathMetabol architecture__. (a) Tissue sections are subjected 
     
     Matplotlib == 3.10.0
     
-    Pandas == 2.2.3
-    
     POT == 0.9.5
     
     Scanpy == 1.10.4
