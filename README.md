@@ -12,29 +12,29 @@ __Overview of DeepPathMetabol architecture__. (a) Tissue sections are subjected 
 
 # Requirement
 
-    Anndata==0.11.3
+    Python == 3.10.15
+
+    Anndata == 0.11.3
         
-    h5py==3.12.1
+    h5py == 3.12.1
     
-    Leidenalg==0.10.2
+    Leidenalg == 0.10.2
     
-    Matplotlib==3.10.0
+    Matplotlib == 3.10.0
     
-    Numpy==1.26.4
+    Numpy == 1.26.4
     
-    Pandas==2.2.3
+    Pandas == 2.2.3
     
-    POT==0.9.5
+    POT == 0.9.5
     
-    Scanpy==1.10.4
+    Scanpy == 1.10.4
     
-    SimpleITK==2.4.1
+    SimpleITK == 2.4.1
     
-    Torch==2.1.1+cu118
+    Torch == 2.1.1+cu118
     
-    Torchvision==0.16.1+cu118
-    
-    Python==3.10.15    
+    Torchvision == 0.16.1+cu118    
 
 # Quickly start
 
