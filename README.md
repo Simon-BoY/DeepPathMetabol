@@ -16,13 +16,9 @@ __Overview of DeepPathMetabol architecture__. (a) Tissue sections are subjected 
 
     Anndata == 0.11.3
         
-    h5py == 3.12.1
-    
     Leidenalg == 0.10.2
     
     Matplotlib == 3.10.0
-    
-    Numpy == 1.26.4
     
     Pandas == 2.2.3
     
