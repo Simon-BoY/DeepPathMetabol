@@ -25,10 +25,16 @@ __Overview of DeepPathMetabol architecture__. (a) Tissue sections are subjected 
     Scanpy == 1.10.4
     
     SimpleITK == 2.4.1
+
+    Numpy == 1.26.4
     
     Torch == 2.1.1
     
     Torchvision == 0.16.1  
+
+    Openslide-bin == 4.0.0.8
+
+    Openslide-python == 1.4.2
 
 # Quickly start
 
@@ -46,15 +52,15 @@ cd to the DeepPathMetabol fold
 
 If you want to perform Dpm_Alignment for H&E image and MSI image registration, taking mouse kidney section as an example, run：
 
-    python run.py Align --img_path './data/Kidney/img/03.tif' --msi_path './data/Kidney/count/03.txt' --output_prefix './data/processed_data/k03_80um.h5ad' --cut_threshold 210 --n 0
+    python run.py Align --img_path ./data/Kidney/img/03.tif --msi_path ./data/Kidney/count/03.txt --output_prefix ./data/processed_data/k03_80um.h5ad --cut_threshold 210 --n 0
   
 If you want to perform Dpm_transport for prediction of MSI data for adjacent slices, taking mouse kidney section as an example, run:
 
-    python run.py Predict --h5ad_path './data/processed_data/k03_80um.h5ad' --image_path './data/Kidney/img/12.tif' --output_path './data/processed_data/k12_80um_Dpm.h5ad' --spot_size 100
+    python run.py Predict --h5ad_path ./data/processed_data/k03_80um.h5ad --image_path ./data/Kidney/img/12.tif --output_path ./data/processed_data/k12_80um_Dpm.h5ad --spot_size 100
   
 If you want to perform both Dpm_Alignment (H&E-MSI registration) and Dpm_transport (MSI prediction for adjacent slices) sequentially in one go, taking mouse kidney section as an example, run
 
-    python run.py All --img_path './data/Kidney/img/03.tif' --msi_path './data/Kidney/count/03.txt' --output_prefix './data/processed_data/k03_80um.h5ad' --image_path './data/Kidney/img/12.tif' --pred_output_path './data/processed_data/k12_80um_Dpm.h5ad' --cut_threshold 210 --n 0 --spot_size 70
+    python run.py All --img_path ./data/Kidney/img/03.tif --msi_path ./data/Kidney/count/03.txt --output_prefix ./data/processed_data/k03_80um.h5ad --image_path ./data/Kidney/img/12.tif --pred_output_path ./data/processed_data/k12_80um_Dpm.h5ad --cut_threshold 210 --n 0 --spot_size 70
 
 ## Contact
 Please contact me if you have any help: 
