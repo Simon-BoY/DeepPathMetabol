@@ -63,4 +63,4 @@ If you want to perform both Dpm_Alignment (H&E-MSI registration) and Dpm_transpo
     python run.py All --img_path ./data/Kidney/img/03.tif --msi_path ./data/Kidney/count/03.txt --output_prefix ./data/processed_data/k03_80um.h5ad --image_path ./data/Kidney/img/12.tif --pred_output_path ./data/processed_data/k12_80um_Dpm.h5ad --cut_threshold 210 --n 0 --spot_size 70
 
 ## Contact
-Please contact me if you have any help: 
+Please contact me if you have any help: doggyfox@163.com
