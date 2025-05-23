@@ -56,7 +56,7 @@ If you want to perform Dpm_Alignment for H&E image and MSI image registration, t
   
 If you want to perform Dpm_transport for prediction of MSI data for adjacent slices, taking mouse kidney section as an example, run:
 
-    python run.py Predict --h5ad_path ./data/processed_data/k03_80um.h5ad --image_path ./data/Kidney/img/12.tif --output_path ./data/processed_data/k12_80um_Dpm.h5ad --spot_size 100
+    python run.py Predict --h5ad_path ./data/processed_data/k03_80um.h5ad --image_path ./data/Kidney/img/12.tif --output_path ./data/processed_data/k12_80um_Dpm.h5ad --spot_size 70
   
 If you want to perform both Dpm_Alignment (H&E-MSI registration) and Dpm_transport (MSI prediction for adjacent slices) sequentially in one go, taking mouse kidney section as an example, run
 
